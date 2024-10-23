@@ -1,0 +1,119 @@
+.container{
+  min-height: 100px;
+  width: 550px;
+  background-color: rgb(251, 251, 251);
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  margin-top: 10vh;
+  border-radius: 20px;
+  padding: 40px;
+  font-style: italic;
+  box-shadow: 3px 4px 3px grey;
+  margin-bottom: 10vh;
+
+  
+}
+body{
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(http://clipart-library.com/images_k/pencil-clipart-transparent-background/pencil-clipart-transparent-background-23.png);
+  background-size: 100% 100%;
+  background-color: rgb(219, 244, 215);
+}
+.container h1{
+  font-size: 38px;
+  text-shadow: 5px 5px 2px rgb(7, 228, 210);
+  margin-top: -20px;
+}
+button{
+  padding: 5px;
+  border-radius: 8px;
+  margin-right: 10px;
+  background-color: rgb(252, 184, 196);
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  text-shadow: 0px 0px 2px rgb(117, 116, 116);
+}
+input{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 2px grey;
+  font-size: 18px;
+
+}
+p{
+  background-color: rgb(229, 236, 241);
+  min-height: 40PX;
+ width:350px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 12px;
+  line-height: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px grey;
+  font-size: 18px;
+  text-align: center;
+  display: inline-flexbox;
+  margin-right: 20px;
+  margin-left: 20px;
+  overflow-x: hidden;
+}
+
+ #cbtest-19{
+  
+  min-height: 30px;
+  min-width: 30px;
+  height: auto;
+  width:auto;
+  margin-right: 30px;
+  box-shadow: none;
+}
+img{
+  height: 150px;
+  width: 150px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+button:hover{
+  background-color: rgb(226, 113, 132);
+  padding: 6px;
+  cursor: pointer;
+}
+h1 { 
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.-XOioBU3aDGoXOx3sRYDNQHaNK&pid=Api&P=0&h=180); 
+  background-repeat: repeat; 
+  -webkit-background-clip: text; 
+  background-clip:calc();
+  -webkit-text-fill-color: transparent; 
+  margin-top: 200px; 
+  font-size: 120px; 
+  text-align: center; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  font-family: 'Steelfish Rg', 'helvetica neue', 
+           helvetica, arial, sans-serif; 
+  font-weight: 800; 
+  -webkit-font-smoothing: antialiased; 
+} 
+input:focus{
+  border: none;
+  /* background-color:rgb(230, 255, 255); */
+
+}
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.delete,.edit{
+  background-color: rgb(234, 150, 164);
+  cursor: pointer;
+
+}

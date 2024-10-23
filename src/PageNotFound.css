@@ -1,0 +1,29 @@
+body{
+    text-shadow: 3px 2px 5px grey;
+
+}
+img{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+h1,h2{
+
+font-size: 4em;
+text-align: center;
+color: red;
+}
+h2{
+    font-size: 3em;
+    color: orangered;
+}
+div{
+   
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
